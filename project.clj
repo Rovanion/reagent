@@ -11,7 +11,7 @@
                  [cljsjs/react "16.0.0-0"]
                  [cljsjs/react-dom "16.0.0-0"]
                  [cljsjs/react-dom-server "16.0.0-0"]
-                 [cljsjs/create-react-class "15.6.0-3"]]
+                 [cljsjs/create-react-class "15.6.2-0"]]
 
   :plugins [[lein-cljsbuild "1.1.6"]
             [lein-codox "0.10.3"]]
@@ -104,7 +104,7 @@
                                    :process-shim true
                                    :npm-deps {:react "16.0.0"
                                               :react-dom "16.0.0"
-                                              :create-react-class "15.6.0"}}}}}
+                                              :create-react-class "15.6.2"}}}}}
 
   :figwheel {:http-server-root "public" ;; assumes "resources"
              :repl false})
